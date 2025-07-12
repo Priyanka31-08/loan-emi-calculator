@@ -90,18 +90,22 @@
 
   <div class="container">
     <h2>EMI Calculator</h2>
+
     <div class="form-group">
       <label for="amount">Loan Amount (₹):</label>
       <input type="number" id="amount" placeholder="Enter loan amount">
     </div>
+
     <div class="form-group">
       <label for="rate">Annual Interest Rate (%):</label>
-      <input type="number" id="rate" step="0.01" placeholder="Enter interest rate">
+      <input type="number" id="rate" placeholder="Enter interest rate">
     </div>
+
     <div class="form-group">
       <label for="tenure">Loan Tenure (months):</label>
       <input type="number" id="tenure" placeholder="Enter loan tenure">
     </div>
+
     <button class="btn" onclick="calculateEMI()">Calculate EMI</button>
 
     <div class="result" id="result">
